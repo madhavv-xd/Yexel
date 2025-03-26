@@ -1,0 +1,28 @@
+ {
+    "manifest_version" : 3,
+    "name" : "Youtube channel link extraction.",
+    "version" : "1.0",
+    "description" : "Extracts the channel link from the youtube channel.",
+    "permissions" : [
+        "activeTab" ,
+        "downloads" ,
+        "https://www.youtube.com/*"
+    ] ,
+    "action" : {
+      "default_popup" : "Popup.html" ,
+      "default_icon" : {
+         "16" : "icons/16.png" ,
+         "48" : "icons/48.png" ,
+         "128" : "icons/128.png"
+      }
+    },
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "icons" : {
+        "16" : "icons/16.png",
+        "48" : "icons/48.png",
+        "128" : "icons/128.png"
+    }
+}
+ 
