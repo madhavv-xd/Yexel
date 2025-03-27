@@ -1,5 +1,4 @@
-# Project Title
-Yexel 
+# Yexel
 
 Yexel is a chrome extension that lets you copy the titles and video links of youtube video and port them into excel sheet in just 1 click.
 
