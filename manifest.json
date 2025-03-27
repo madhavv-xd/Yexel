@@ -6,8 +6,12 @@
     "permissions" : [
         "activeTab" ,
         "downloads" ,
-        "https://www.youtube.com/*"
+        "tabs" ,
+        "scripting"
     ] ,
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ],
     "action" : {
       "default_popup" : "Popup.html" ,
       "default_icon" : {

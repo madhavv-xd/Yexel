@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
           }
       
-          if (!isValidYouTubeChannelUrl(channelUrl)) {
+          if (!isValidYoutube(channelUrl)) {
             statusDiv.style.color = 'red';
             statusDiv.textContent = 'Invalid YouTube channel URL. Please enter a valid YouTube channel link.';
             return;
